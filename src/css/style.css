@@ -127,15 +127,13 @@ form {
 
 
 main img{
-	width: 58%;
-	height: 58%;
-	margin-left: 22rem;
+	width: 48%;
+	margin-left: 23rem;
 }
 .error-text {
 	position: absolute;
 	top: 115%;
-	right: 0;
-	left: 0;
+	margin-left: 25rem;
 	font-size: 0.85rem;
 	font-weight: var(--fw-300);
 	color: var(--Light-Red);
