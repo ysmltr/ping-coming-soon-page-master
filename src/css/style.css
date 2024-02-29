@@ -55,6 +55,7 @@ header {
 header img {
 	width: 25%;
 	margin-top: 36px;
+	margin-bottom: 42px;
 }
 
 
@@ -126,8 +127,8 @@ form {
 
 
 main img{
-	width: 48%;
-	height: 48%;
+	width: 58%;
+	height: 58%;
 	margin-left: 22rem;
 }
 .error-text {
@@ -161,18 +162,18 @@ footer {
 
 .social-nav-footer{
 	padding: 0.5rem;
+	border: 1px solid var(--Blue);
 	display: flex;
-	border-radius: 50%;
+	
 	border-radius: 50px;
 	cursor: pointer;
-	
 	font-size: 18px;
 	color: var(--Blue);
 }
 
 .social-nav-link:hover{
 	background-color: var(--Blue);
-	border: 3px solid var(--Blue);
+	
 	border-radius: 5px;
 	color: white;
 }
