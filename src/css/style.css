@@ -191,3 +191,19 @@ fab{
 	align-items: center;
 	gap: 1rem;
 }
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: var(--neutral-gray);
+}
+
+.attribution a {
+	color: var(--neutral-very-dark-blue);
+	text-decoration: underline;
+}
+
+.attribution a:hover {
+	color: var(--primary-blue);
+	text-decoration: underline;
+}
