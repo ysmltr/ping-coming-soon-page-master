@@ -7,7 +7,7 @@ function validateEmail(i) {
     const errorMessage = document.querySelector(".error-text"); // Doğru hata mesajı öğesini seçmek için querySelector kullanın
 
     if (i.value === "" || i.value === undefined) {
-        errorMessage.textContent = "Hmm, that doesn't look like a valid email address 🤔";
+        errorMessage.textContent = "Whoops! It looks like you forgot to add your email";
         errorMessage.style.display = "block";
     } else if (!i.value.match(regexEmail)) {
         errorMessage.textContent = "*Please provide a valid email address";
