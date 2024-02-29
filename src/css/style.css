@@ -172,14 +172,14 @@ footer {
 }
 
 .social-nav-link:hover{
-	background-color: var(--Blue);
+	color: var(--Blue);
 	
 	border-radius: 5px;
 	color: white;
 }
 
-fab{
-	background-color: var(--Blue);
+.fa-brands{
+	color: var(--Blue);
 }
 
 .footer-copyright {
