@@ -14,10 +14,179 @@
 --Font-family:'Libre Franklin';
   }
 
-*{
+  *,
+  *::before,
+  *::after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--Font-family);
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+  }
+ body{
+  font-family: var(--Font-family);
+ }  
 
+ .logo, .main-title{
+  margin: 0 auto;
+	width: 85%;
+	max-width: 30rem;
+	text-align: center;
+ }
+ 
+.title{
+color: var(--Gray);
+}
+
+.text-blue-bold{
+  color: var(--Very-Dark-Blue);
+}
+
+header {
+	margin: 4rem 0 2.3rem;
+}
+
+header img {
+	width: 25%;
+	margin-top: 36px;
+}
+
+
+.title {
+	font-size: 1.7rem;
+	font-weight: 300;
+	margin-bottom: 1.3rem;
+}
+
+.title span {
+	font-weight: 700;
+}
+
+.subtitle {
+	font-size: 1.1rem;
+}
+
+form {
+	margin-top: 2.5rem;
+	margin-bottom: 4rem;
+}
+
+
+.button-group {
+	border: 1px solid var(--secondary-pale-blue);
+	border-radius: 50px;
+	position: relative;
+	cursor: text;
+	align-items: center;
+}
+
+.button-group input {
+	padding: 1rem 0 1rem 2.2rem;
+	margin-left: 22rem;
+	background-color: transparent;
+	width: 40%;
+	border-radius: 2rem solid black;
+}
+
+.button-group input::placeholder {
+	font-size: 0.9rem;
+	font-family: var(--Font-family);
+	font-weight: 300;
+	color: var(--Pale-blue);
+}
+
+
+
+.btn {
+	margin-top: 1rem;
+	padding: 1rem;
+	width: 10%;
+	box-shadow: 0 5px 20px var(--Pale-Blue);
+	border-radius: 50px;
+	font-size: 0.9rem;
+	font-family: var(--Font-family);
+	font-weight: 600;
+	cursor: pointer;
+	background-color: var(--Blue);
+	color: white;
+}
+
+
+.btn:hover,
+.btn:focus {
+	filter: brightness(1.2);
+	transition: 0.5s;
+}
+
+
+main img{
+	width: 48%;
+	height: 48%;
+	margin-left: 22rem;
+}
+.error-text {
+	position: absolute;
+	top: 115%;
+	right: 0;
+	left: 0;
+	font-size: 0.85rem;
+	font-weight: var(--fw-300);
+	color: var(--Light-Red);
+	font-style: italic;
+	display: none;
+	transition: 0.5s ease-out;
+}
+
+
+
+footer {
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+
+.social-nav-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1.5rem;
+	
+}
+
+.social-nav-footer{
+	padding: 0.5rem;
+	display: flex;
+	border-radius: 50%;
+	border-radius: 50px;
+	cursor: pointer;
+	
+	font-size: 18px;
+	color: var(--Blue);
+}
+
+.social-nav-link:hover{
+	background-color: var(--Blue);
+	border: 3px solid var(--Blue);
+	border-radius: 5px;
+	color: white;
+}
+
+fab{
+	background-color: var(--Blue);
+}
+
+.footer-copyright {
+	font-size: 0.9rem;
+	font-weight: var(--fw-300);
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
 }
