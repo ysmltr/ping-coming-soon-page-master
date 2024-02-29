@@ -128,13 +128,15 @@ form {
 
 
 main img{
-	width: 48%;
-	margin-left: 23rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 .error-text {
 	position: absolute;
 	top: 115%;
-	margin-left: 25rem;
+	text-align:center;
 	font-size: 0.85rem;
 	font-weight: var(--fw-300);
 	color: var(--Light-Red);
@@ -202,10 +204,7 @@ footer {
 	text-decoration: underline;
 }
 
-.attribution a:hover {
-	color: var(--primary-blue);
-	text-decoration: underline;
-}
+
 
 
 
